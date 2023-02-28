@@ -390,11 +390,11 @@ We have built the largest global community of professional FinTech investors all
         </section>
           
         {/* testimonial */}
-        <section className='relative w-full h-[168vh]'>
+        <section className='relative w-full h-[1100px]'>
             
-           <img className='pt-32 ml-16' src={img4}/>
+           <img className='absolute bottom-0 pt-32' src={img4}/>
 
-          <div className='w-full absolute bottom-0'>
+          <div className='absolute w-full'>
             <div className='text-center my-[120px]'>
               <p className='text-[40px] bespoke font-bold'>Testimonials</p>
               <p className='text-[16px] my-6'>Testimonials from customers who are satisfied with services that have been <br/>
@@ -436,11 +436,9 @@ We have built the largest global community of professional FinTech investors all
                   </p>
                   <p className='text-[12px] text-green-400'>John grinwild,new york,NY</p>
                 </div>
-
-                
-
               </div>
             </div>
+
             <footer className='footerbg p-16 flex justify-center items-center'>
               <div className='mx-12'>
                 <div>Home</div>
@@ -461,9 +459,9 @@ We have built the largest global community of professional FinTech investors all
                 <div>Contact Details</div>
                 <div className='my-2'>+805268296</div>
               </div>
+              <img className='absolute w-[680px] h-[680px] -top-52 -left-56 ' src={img5}/>
             </footer>
           </div>
-          <img className='absolute w-[680px] h-[680px] -top-52 -left-56 ' src={img5}/>
         </section>
 
     </div>
